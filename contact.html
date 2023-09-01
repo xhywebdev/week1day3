@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Petplus Animal Adoption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container is used to wrap everything -->
+    <div id="container">
+        <!-- Website Brand -->
+        <header>
+            <h1>Petplus Animal Adoption</h1>
+        </header>
+        <!-- Main Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- Main Content -->
+        <main>
+
+            <h2>Contact With The Following Form</h2>
+            <form action="/signup" method="post">
+                <fieldset>
+                    <legend>User Personal Information</legend>
+                    <label>Your Full Name</label><br>
+                    <input type="text" name="full_name"><br>
+                    <label>Your Email Address</label><br>
+                    <input type="email" name="email"><br>
+                    <label>Your Phone Number</label><br>
+                    <input type="text" name="phone"><br>
+
+                    <label>Your Gender</label><br>
+                    <input type="radio" name="gender" value="male">Male <br>
+                    <input type="radio" name="gender" value="female">Female <br>
+                    <input type="radio" name="gender" value="other">Other<br>
+
+                    <label>How should we contact you?</label><br>
+                    <select name="contact_method">
+                        <option value="email">Email</option>
+                        <option value="phonee">Phone</option>
+                        <option value="pidgeon">Carrier Pidgeon</option>
+                    </select><br>
+
+                    <label>Which animal are you adopting today?</label><br>
+                    <select name="contact_method">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="rabbit">Rabbit</option>
+                    </select><br>
+
+                    <label>Please describe your reason for adoption.</label><br>
+                    <textarea cols="40" rows="5"></textarea><br>
+
+                    <input type="submit" value="Submit For Review"><br>
+                    <p>We will notify you the decision in 3 to 5 business days.</p>
+                </fieldset>
+            </form>
+
+        </main>
+        <!-- Footer -->
+        <footer>&copy; Copyright 2023</footer>
+    </div>
+    <!-- End Container -->
+</body>
+
+</html>
